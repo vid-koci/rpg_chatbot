@@ -19,12 +19,14 @@ On the first window, the program will ask you to input the information about pla
 Between one and five player characters can be added.
 To run the chatbot, pick one of the encounters at the bottom.
 Note that the encounter with the animated armor is a two-way chat and only the first of the added characters will take part in the conversation.
+![first window](https://github.com/vid-koci/rpg_chatbot/images/first_window.png)
 
 The chat screen will probably take a couple of minutes to load - this is because the AI model is being loaded.
 For each interaction, three pieces of information have to be provided: Who is saying it, what are thay saying, and whether they do anything on top of that.
 Either of the last two can be left empty.
 Pressing the "Send" button does not automatically invoke the AI to allow multi-way communication, i.e. the user (DM) to add multiple entries from multiple non-AI characters.
 The "AI response" button creates a response from the chatbot.
+![second window](https://github.com/vid-koci/rpg_chatbot/images/second_window.png)
 
 ### Good practices
 
