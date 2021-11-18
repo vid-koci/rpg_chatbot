@@ -38,7 +38,12 @@ While you're free to use this chatbot in any way you like, note that it works be
   * Finish the encounter with the animated armor once it lets players through or hits for the first time - it was not trained beyond this and will produce meaningless responses more likely.
 
 ### FAQ
-  * **Your interface is bad an looks like it's from the 90s.** I know and I'll gladly accept git pulls with a nicer interface.
+  * **Your interface is bad an looks like it's from the 90s.** I know and I'll gladly accept pull requests with a nicer interface.
   * **Your chatbot is bad and produces meaningless responses.** I am limited by the technology of my time. Also, a schizophrenic chatbot is the whole gimmick behind this one-shot. 
   * **Your interface limits me, I need more than 5 player characters for the final fight.** Improvise, you're the DM. Use one in-chat character to say and do acts of two in-game characters. Chatbot is not bright enough to notice it anyway.
   * **I want to have multiple characters speak to the animated armor** See above.
+
+### More Animations
+
+![Talk with animated armor](https://github.com/vid-koci/rpg_chatbot/blob/main/images/chat_1.gif)
+![Talk with the witch](https://github.com/vid-koci/rpg_chatbot/blob/main/images/chat_2.gif)

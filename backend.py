@@ -10,9 +10,7 @@ class chatbot:
         self.speaker=speaker
         self.device="cpu"
         self.tokenizer = AutoTokenizer.from_pretrained("t5-large")
-        #self.model = AutoModelForSeq2SeqLM.from_pretrained("t5-large")
         self.model = AutoModelForSeq2SeqLM.from_pretrained("chatbot_trained")
-        #self.model.load_state_dict(torch.load("finetuned_model_large3e-05",map_location=self.device))
         self.model.eval()
         assert len(self.characters)>0
         self.body = self.prompts[speaker].replace("(P1)",characters[0][0]).replace("(P1_desc)",characters[0][1])
